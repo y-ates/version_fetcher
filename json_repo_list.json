@@ -1,0 +1,57 @@
+{
+	"jquery": {
+		"name": "jquery/jquery",
+		"url": "https://github.com/jquery/jquery/releases",
+		"type": "git"
+	},
+	"bootstrap": {
+		"name": "twbs/bootstrap",
+		"url": "https://github.com/twbs/bootstrap",
+		"type": "git"
+	},
+	"react": {
+		"name": "facebook/react",
+		"url": "https://github.com/facebook/react",
+		"type": "git"
+	},
+	"angular": {
+		"name": "angular/angular.js",
+		"url": "https://github.com/angular/angular.js/",
+		"type": "git"
+	},
+	"angularjs": {
+		"name": "angular/angular.js",
+		"url": "https://github.com/angular/angular.js/",
+		"type": "git"
+	},
+	"vue": {
+		"name": "vuejs/vue",
+		"url": "https://github.com/vuejs/vue",
+		"type": "git"
+	},
+	"ember": {
+		"name": "emberjs/ember.js",
+		"url": "https://github.com/emberjs/ember.js",
+		"type": "git"
+	},
+	"express": {
+		"name": "expressjs/express",
+		"url": "https://github.com/expressjs/express",
+		"type": "git"
+	},
+	"squid": {
+		"name": "squid-cache/squid",
+		"url": "https://github.com/squid-cache/squid",
+		"type": "git"
+	},
+	"php": {
+		"name": "php/php-src",
+		"url": "https://github.com/php/php-src",
+		"type": "git"
+	},
+	"testSoftware": {
+		"name": "testSoftware2",
+		"url": "testURL2",
+		"type": "other"
+	}
+}
