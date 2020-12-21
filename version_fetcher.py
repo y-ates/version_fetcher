@@ -4,7 +4,7 @@ import getopt
 import requests
 import json
 
-version = "v0.1"
+version = "v0.2"
 github_url = "https://github.com/y-ates/version_fetcher"
 repo_list_file = "json_repo_list.json"
 

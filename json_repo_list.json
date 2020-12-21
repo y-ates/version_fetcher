@@ -49,6 +49,21 @@
 		"url": "https://github.com/php/php-src",
 		"type": "git"
 	},
+	"nginx": {
+		"name": "nginx/nginx",
+		"url": "https://github.com/nginx/nginx",
+		"type": "git"
+	},
+	"apache": {
+		"name": "apache/httpd",
+		"url": "https://github.com/apache/httpd",
+		"type": "git"
+	},
+	"tomcat": {
+		"name": "apache/tomcat",
+		"url": "https://github.com/apache/tomcat",
+		"type": "git"
+	},
 	"testSoftware": {
 		"name": "testSoftware2",
 		"url": "testURL2",
