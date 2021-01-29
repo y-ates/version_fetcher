@@ -52,11 +52,13 @@
 	"nginx": {
 		"name": "nginx/nginx",
 		"url": "https://github.com/nginx/nginx",
+		"release_notes": "http://nginx.org/en/CHANGES",
 		"type": "git"
 	},
 	"apache": {
 		"name": "apache/httpd",
 		"url": "https://github.com/apache/httpd",
+		"release_notes": "https://www.apachelounge.com/Changelog-2.4.html",
 		"type": "git"
 	},
 	"tomcat": {
@@ -64,6 +66,16 @@
 		"url": "https://github.com/apache/tomcat",
 		"type": "git"
 	},
+	"underscorejs": {
+		"name": "jashkenas/underscore",
+		"url": "https://github.com/jashkenas/underscore",
+		"type": "git"
+	},
+	"underscore.js": {
+		"name": "jashkenas/underscore",
+		"url": "https://github.com/jashkenas/underscore",
+		"type": "git"
+	},	
 	"testSoftware": {
 		"name": "testSoftware2",
 		"url": "testURL2",
