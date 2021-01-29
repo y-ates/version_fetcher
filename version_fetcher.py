@@ -22,7 +22,7 @@ def fetch_repo(json_repo_list, needle, tag="name"):
 
         f.close()
 
-def fetch_git(repo, name):
+def fetch_git_release_version(repo, name):
     if repo != 0:
         r = requests.get("https://api.github.com/repos/" + repo + "/releases/latest")
         json_response = json.loads(r.text)
@@ -74,7 +74,7 @@ def main(argv):
       elif opt in ("-n", "--name"):
           toSearch = str(arg).lower()
           repo_name = fetch_repo(repo_list_file, toSearch)
-          latest_version = fetch_git(repo_name, toSearch)
+          latest_version = fetch_git_release_version(repo_name, toSearch)
           
           print("Latest version of " + str(toSearch) + " is: " + str(latest_version))
           
